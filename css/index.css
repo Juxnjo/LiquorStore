@@ -1,0 +1,88 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.header{
+    margin: 10px;
+}
+
+
+.redes ul {
+    margin: 5px;
+}
+
+.redes ul li {
+    display: inline-block;
+    padding: 5px;
+    
+}
+
+.redes p {
+    margin: 5px;
+    font-size: 13px;
+    
+}
+
+.logotipo {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.logotipo img {
+    margin: 5px;
+    width: 25%;
+}
+
+.nav{
+    padding: 5px;
+    margin: 5px;
+}
+
+.catalogo{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.articulo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.articulo p{
+    padding: 10px;
+    font-size: 12px;
+
+}
+
+.x1{
+    position: relative;
+}
+
+.x1 img{
+    width: 100%;
+}
+
+.seccion{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 12px;
+
+}
+
+
+
+ 
+
+
