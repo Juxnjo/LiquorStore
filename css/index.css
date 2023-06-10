@@ -80,9 +80,115 @@ body{
     font-size: 12px;
 
 }
-
-
-
- 
-
-
+.carousel {
+        position: relative;
+        width: 100%; /* Ajusta el ancho del carousel según tus necesidades */
+        height: 600px;
+        overflow: hidden;
+        margin: 0 auto;
+      
+  }
+  
+  .carousel-track {
+    display: flex;
+    transition: transform 0.3s ease-in;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel-slide {
+    flex: 0 0 100%;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-prev,
+  .carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .carousel-prev {
+    left: 10px;
+  }
+  
+  .carousel-next {
+    right: 10px;
+  }
+  
+  .carousel-next:hover{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: rgb(219, 212, 212);
+    color: #000000;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    border: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .carousel-prev:hover{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: rgb(219, 212, 212);
+    color: #000000;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    border: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .carousel-progress {
+    position: absolute;
+    border-radius: 10px;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background-color: #007bff;
+    animation: width 0.1s linear;
+  }
+  
+  @keyframes progressAnimation {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  .titulo{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  
+  
