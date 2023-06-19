@@ -201,3 +201,8 @@ body{
    
 }
 
+.estadisticas{
+  background-image: url(../img/fondo-estadisticas.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
