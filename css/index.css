@@ -202,7 +202,16 @@ body{
 }
 
 .estadisticas{
-  background-image: url(../img/fondo-estadisticas.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/fondo-estadisticas.jpg);
+  opacity: 1;
   background-size: cover;
   background-repeat: no-repeat;
+  text-transform: uppercase;
+}
+.titulo-estadisticas h2{
+  border-bottom: solid red ;
+}
+
+.datos-sede, .producto, .datos-experiencia, .reseña{
+  border-top:dotted 1px;
 }
