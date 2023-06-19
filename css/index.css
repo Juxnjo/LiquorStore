@@ -215,3 +215,12 @@ body{
   width: 100px;
   border-bottom: solid red ;
 }
+footer{
+    background-color: #2F2F2F;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.redes-sociales{
+    border-top: solid 5px rgb(70, 70, 70);
+    margin-top: 30px;
+}
