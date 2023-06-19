@@ -210,6 +210,8 @@ body{
   text-transform: uppercase;
   border-bottom: solid white 5px;
 }
-.titulo-estadisticas h2{
+.raya{
+  margin-top: 5px;
+  width: 100px;
   border-bottom: solid red ;
 }
