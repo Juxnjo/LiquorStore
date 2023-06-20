@@ -1,3 +1,5 @@
+/*Juanjo*/
+
 body{
     margin: 0px;
     padding: 0px;
@@ -33,7 +35,7 @@ body{
 
 .logotipo img {
     margin: 5px;
-    width: 25%;
+    width: 10%;
 }
 
 .nav{
@@ -82,89 +84,356 @@ body{
 }
 
 @media (min-width: 768px){
-    .header{
-        position: absolute;
-        z-index: 1;
-    }
+  .header{
+      position: absolute;
+      z-index: 1;
+  }
 
-    .redes{
-        font-size: 20px;
-        
-    }
+  .redes{
+      font-size: 20px;
+      
+  }
 
-    .redes p{
-        font-size: 20px;
-        
-    }
+  .redes p{
+      font-size: 20px;
+      
+  }
 
-    .logotipo{
-        color: black;
-        font-size: 24px;
-        
-        
-    }
+  .logotipo{
+      color: black;
+      font-size: 24px;
+      
+      
+  }
 
-    .logotipo img {
-        margin: 5px;
-        width: 15%;
-        
-    }
+  .logotipo img {
+      margin: 5px;
+      width: 15%;
+      
+  }
 
-    .nav{
-        opacity: 0;
-    }
+  .nav{
+      opacity: 0;
+  }
 
-    .catalogo {
-        display: flex;
-        width: 100%;
-        height: 800px;
-        
-        
-    }
-    
-    .catalogo img {
-        width: 15%;
-        flex-grow: 1;
-        object-fit: cover;
-        opacity: .8;
-        transition: 0.5s ease, filter 0.5s ease;
-        margin-right: 5px;
-        
+  .catalogo {
+      display: flex;
+      width: 100%;
+      height: 800px;
+      
+      
+  }
+  
+  .catalogo img {
+      width: 15%;
+      flex-grow: 1;
+      object-fit: cover;
+      opacity: .8;
+      transition: 0.5s ease, filter 0.5s ease;
+      margin-right: 5px;
+      
 
-    }
+  }
 
 
-    .catalogo img:hover{
-        cursor: crosshair;
-        width: 250px;
-        opacity: 1;
-        filter: contrast(120%);
-    }
+  .catalogo img:hover{
+      cursor: crosshair;
+      width: 250px;
+      opacity: 1;
+      filter: contrast(120%);
+  }
 
-    .seccion{
-        font-size: 24px;
-    }
+  .seccion p{
+      font-size: 28px;
+  }
 
 }
 
 @media (min-width: 1200px){
 
 
-    .catalogo img {
-        transform: rotate(8deg);
-        margin-right: 10px;
-        margin-bottom: -35px;
-        margin-top: -35px;
-        
-        
-    } 
+  .catalogo img {
+      transform: rotate(8deg);
+      margin-right: 10px;
+      margin-bottom: -35px;
+      margin-top: -35px;
+      
+      
+  } 
 
-    .seccion{
-        font-size: 28px;
-    }
+  .seccion p{
+      font-size: 36px;
+  }
 
 }
 
- 
+/*Luis*/
+
+.locales .titulo{
+    text-align: center;
+    font-size: 40px;
+}
+
+.contenido{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.card{
+    position: relative;
+    
+}
+
+.card img{
+    height: 200px;
+    width: 400px;
+}
 
 
+.info a{
+    top: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 120px;
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    font-size: 2rem;
+    background-image: linear-gradient(90deg, #ffee00, #fffb00, #fbff00);
+    font-weight: bold;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 10% 2px;
+    background-position: bottom;
+    transition: background-size 700ms ease-in-out; 
+
+}
+
+.info a:hover{
+    background-size: 30% 2px; 
+}
+
+.info button{
+    margin-top: 10px;
+    background-color: rgb(255, 255, 0);
+    font-size: 20px;
+    width: 120px;
+    border-radius: 2px;
+}
+ .productos{
+    background-color: #2F2F2F; 
+    padding: 100px 0 100px;
+ }
+ .titulo{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+ }
+
+ .productos-cards{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+   
+ }
+
+.card-productos{
+    position: relative;
+    margin-top: 50px;
+}
+
+.card-productos img{
+    width: 150px;
+    height: 300px;
+}
+
+.info .circulo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .circulo {
+    border: solid rgb(255, 255, 255);
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 0 auto;
+    opacity: 0;
+    transition: opacity 0.25s ease-in-out;
+  }
+  
+  .info .circulo i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+
+.circulo:hover{
+    opacity: 1;
+   
+}
+
+
+/*Cristian*/
+
+.seccion{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 12px;
+
+}
+.carousel {
+        position: relative;
+        width: 100%; /* Ajusta el ancho del carousel según tus necesidades */
+        height: 600px;
+        overflow: hidden;
+        margin: 0 auto;
+      
+  }
+  
+  .carousel-track {
+    display: flex;
+    transition: transform 0.3s ease-in;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel-slide {
+    flex: 0 0 100%;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-prev,
+  .carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .carousel-prev {
+    left: 10px;
+  }
+  
+  .carousel-next {
+    right: 10px;
+  }
+  
+  .carousel-next:hover{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: rgb(219, 212, 212);
+    color: #000000;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    border: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .carousel-prev:hover{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: rgb(219, 212, 212);
+    color: #000000;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    border: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .carousel-progress {
+    position: absolute;
+    border-radius: 10px;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background-color: #007bff;
+    animation: width 0.1s linear;
+  }
+  
+  @keyframes progressAnimation {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  .titulo{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+
+/*Diana*/
+  .estadisticas{ 
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/fondo-estadisticas.jpg);
+    opacity: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    border-bottom: solid white 5px;
+  }
+  .raya{
+    margin-top: 5px;
+    width: 100px;
+    border-bottom: solid red ;
+  }
+  footer{
+      background-color: #2F2F2F;
+      font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  }
+  
+  .redes-sociales{
+      border-top: solid 5px rgb(70, 70, 70);
+      margin-top: 30px;
+  }
