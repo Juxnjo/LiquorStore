@@ -81,7 +81,89 @@ body{
 
 }
 
+@media (min-width: 768px){
+    .header{
+        position: absolute;
+        z-index: 1;
+    }
 
+    .redes{
+        font-size: 20px;
+        
+    }
+
+    .redes p{
+        font-size: 20px;
+        
+    }
+
+    .logotipo{
+        color: black;
+        font-size: 24px;
+        
+        
+    }
+
+    .logotipo img {
+        margin: 5px;
+        width: 15%;
+        
+    }
+
+    .nav{
+        opacity: 0;
+    }
+
+    .catalogo {
+        display: flex;
+        width: 100%;
+        height: 800px;
+        
+        
+    }
+    
+    .catalogo img {
+        width: 15%;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: 0.5s ease, filter 0.5s ease;
+        margin-right: 5px;
+        
+
+    }
+
+
+    .catalogo img:hover{
+        cursor: crosshair;
+        width: 250px;
+        opacity: 1;
+        filter: contrast(120%);
+    }
+
+    .seccion{
+        font-size: 24px;
+    }
+
+}
+
+@media (min-width: 1200px){
+
+
+    .catalogo img {
+        transform: rotate(8deg);
+        margin-right: 10px;
+        margin-bottom: -35px;
+        margin-top: -35px;
+        
+        
+    } 
+
+    .seccion{
+        font-size: 28px;
+    }
+
+}
 
  
 
