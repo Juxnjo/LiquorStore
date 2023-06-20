@@ -1,9 +1,15 @@
+
+@font-face {
+    font-family: "helvetica";
+    src: url("../fonts/HelveticaNowText-Bold.ttf");
+}
+
 /*Juanjo*/
 
 body{
     margin: 0px;
     padding: 0px;
-    font-family: 'Source Code Pro', monospace;
+     font-family: "helvetica"
 }
 
 .header{
@@ -204,7 +210,7 @@ body{
     font-size: 40px;
     text-decoration: none;
     font-size: 2rem;
-    background-image: linear-gradient(90deg, #ffee00, #fffb00, #fbff00);
+    background-image: linear-gradient(90deg,	#900020, 	#900020, 	#900020);
     font-weight: bold;
     cursor: pointer;
     background-repeat: no-repeat;
@@ -220,10 +226,11 @@ body{
 
 .info button{
     margin-top: 10px;
-    background-color: rgb(255, 255, 0);
+    background-color: 	#900020;
     font-size: 20px;
     width: 120px;
     border-radius: 2px;
+    color: white;
 }
  .productos{
     background-color: #2F2F2F; 
